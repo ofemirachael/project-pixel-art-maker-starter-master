@@ -1,0 +1,96 @@
+body {
+    text-align: center;
+}
+
+
+/*headers and label design properties*/
+label{
+    font-family: 'Mulish', sans-serif;
+}
+
+
+h1 {
+    font: bold 70px Monoton;
+    margin: 0.2em;
+}
+
+
+h2 {
+    margin: 1em 0 0.9em;
+    font-family: 'Mulish', sans-serif;
+}
+
+
+h2:first-of-type {
+    margin: 0 0 0.9em;
+}
+/*End of the header and lable design properties*/
+
+
+/*Start of the table design*/
+table,
+tr,
+td {
+    border: 1px solid black;
+}
+
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+
+tr {
+    height: 20px;
+}
+
+
+td {
+    width: 20px;
+}
+/*End of the table style*/
+
+
+/*start of the form style*/
+input[type=number] {
+    width: 7em;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+
+#submit_form{
+    width: 72%;
+    height: 35px;
+    background: #0825b5;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    margin-top: 0.5em;
+}
+/*End of the form style*/
+
+
+/*the page design frame*/
+.main_container{
+    display: flex;
+    width: 70%;
+    margin: auto;
+}
+
+
+.define_grid{
+    width: 30%;
+    border: 1px solid rgb(219, 218, 218);
+    box-shadow: 3px 3px 30px #ccc;
+    border-radius: 4px;
+    padding: 30px 0;
+}
+
+
+.draw_grid{
+    width: 60%;
+}
+/*End of the page design page*/
+

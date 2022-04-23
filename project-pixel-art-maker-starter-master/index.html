@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pixel Art Maker!</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Monoton">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Pixel Art Maker</h1>
+
+    <div class="main_container">
+        <!--Start of the left card-->
+        <div class="define_grid">
+            <h2>Choose Grid Size</h2>
+            <!--Start of the form-->
+            <form id="sizePicker">
+                <div>
+                    <label>Grid Height:</label>
+                    <input type="number" id="inputHeight" name="height" min="1" value="1">
+                </div>
+                <div>
+                    <label> Grid Width:</label>
+                    <input type="number" id="inputWidth" name="width" min="1" value="1">
+                </div>
+        
+
+                <input type="submit" id="submit_form">
+            </form>
+            <!--End of the form-->
+
+            <!--start of the pick a color section-->
+            <h2>Pick A Color</h2>
+            <input type="color" id="colorPicker">
+            <!--end of the pick a color section-->
+        </div>
+        <!--End of the left card-->
+
+        <!--Start of the right card-->
+        <div class="draw_grid">
+            <h2>Design Canvas</h2>
+            <!--The canva table-->
+            <table id="pixelCanvas">
+                
+            </table>
+        
+        </div>
+        <!--End of the right card-->
+    </div>
+
+    <!--adding the javascript file-->
+    <script src="designs.js"></script>
+</body>
+</html>
